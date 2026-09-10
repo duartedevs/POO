@@ -1,3 +1,55 @@
 //rem: Relativo ao tamanho da fonte raiz (<html>). Mantem a cosistencia tipografica em todo o site.
 
+//VW (viewport width): 1 vw equivale a 1% da largura total da tela do dispositivo.
 
+//VH (Viewport Height): 1 vh equivale a 1% da altura total da tela do dispositivo. (ex: 100vh preenche a altura visivel inteira).
+
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1#titulo{
+    text-align: center;
+    font-size: 1.85rem;
+    background-color: blue;
+    color: aqua;
+    padding: 12px;
+}
+
+div.divisão{
+    margin-top: 40px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around; 
+}
+.linguagens{
+    border: 2px solid black;
+    border-radius: 12%;
+    padding: 18px;
+    width: 200px;
+    height: 200px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 6px 0 0 0 black;
+}
+
+.HTML{
+    background-color: red;
+}
+
+.CSS{
+    background-color: blue;
+}
+
+.BD{
+    background-color: brown;
+}
